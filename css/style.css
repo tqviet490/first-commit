@@ -1,0 +1,125 @@
+.carousel-inner img {  
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+.carousel-caption h3 {
+  color: #fff !important;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+.baidang{
+  width: 350px;
+  float: left;
+  border: thin solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  height: 200px;
+  text-align: center;
+}
+.baidang .anh img{
+  width: 100%;
+}
+.anh{
+  border-radius: 5px;
+  float: left;
+  width:45%;  
+  margin-right: 2px;
+  border: thin solid black;
+}
+.noidung{
+  float: right;
+  width:52%;
+  height: 87%;  
+  margin: 2px;  
+  text-align: left;
+}
+.button{text-align: center;}
+.danhmuc{
+  color: red;
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+}
+#btn{
+  text-decoration: none;
+  border: solid thin black;
+  color: black;
+  padding: 7px 15px;
+  background-color: skyblue;
+  border-radius: 4px;
+}
+#img-baidang{
+  width: 30%;
+  float: left;
+}
+#img-baidang img{
+  max-width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+}
+#img-chitiet{
+  margin-top: 10px;
+}
+.themvaogio a{
+  text-decoration: none;
+  color: white;
+  font-size: 15pt;
+  margin: 3px;
+  padding: 3px;
+}
+.gia-baidang{
+  color:blue;
+  font-weight: bold;
+}
+label.themvaogio{
+  background: #000;
+  border: 1px solid black;
+  display: inline-block;
+  color: #fff;
+  border-radius: 10px;
+}
+h1{
+  font-weight: bold;
+  font-size: 25pt;
+  color:  red;
+}
+#img-chitiet ul{
+  margin: 0;
+  padding: 0;
+}
+#img-chitiet ul li{
+  width: 150px;
+  float: left;
+  list-style: none;
+  margin-right: 5px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid black;
+  background: #eee;
+  padding: 1px 1px;
+}
+#img-chitiet ul li img{
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+.clear-both{
+  clear: both;
+}
+.error-msg{
+  margin:10px 10px;
+  display: block;
+  background: red;
+  color:#fff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding:10px;
+  text-align: center;
+}
